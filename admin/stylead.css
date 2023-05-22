@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    background-color: #4cb1da;
+    border-bottom: 2px solid #3d82af;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+header img {
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+header h1 {
+    padding-left: 40%;
+    padding-top: 25px;
+}
+
+.admin-content {
+    display: flex;
+}
+
+.admin-content-left {
+    background-color: #4cb1da;
+    width: 15%;
+    padding: 120px 0 0 12px;
+    position: fixed;
+    height: 100vh;
+}
+
+.admin-content-left>ul>li>a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.admin-content-left ul li {
+    margin: 6px 0;
+}
+
+.admin-content-left ul ul {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.admin-content-right {
+    width: 100%;
+    padding: 120px 5px 0 225px;
+}
+
+.admin-content-right-cartegory-add input {
+    width: 200px;
+    height: 30px;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+
+.admin-content-right-cartegory-add select {
+    width: 200px;
+    height: 30px;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+
+.admin-content-right-cartegory-add button {
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: rgba(122, 121, 119, 0.485);
+    border: none;
+    color: white;
+}
+
+.admin-content-right-cartegory-add button:hover {
+    background-color: transparent;
+    border: 1px solid rgba(122, 121, 119, 0.485);
+    color: rgba(62, 62, 61, 0.485);
+}
+
+.admin-content-right-cartegory-list table {
+    border-collapse: collapse;
+    background-color: #f0f0f0;
+    background-image: linear-gradient(to bottom, #F2EFE8, #A9DDD6);
+    color: #333;
+}
+
+tr:hover {
+    background-color: #b2daea;
+}
+
+
+/*---------------------Cartegory-list------------*/
+
+.admin-content-right-cartegory-list table {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.admin-content-right-cartegory-list table tr th,
+td {
+    border: 1px solid rgb(82, 82, 82);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+/* ------------------------product-add---------- */
+
+.product-add-content input {
+    outline: none;
+    padding-left: 6px;
+    height: 30px;
+    width: 500px;
+}
+
+.product-add-content label {
+    display: block;
+}
+
+.product-add-content select {
+    outline: none;
+    padding-left: 6px;
+    height: 30px;
+    width: 300px;
+}
+
+.admin-content-right-cartegory-list table tr td {
+    width: 150px;
+    max-width: 150px;
+    overflow: auto;
+}
+
+.product-add-content button {
+    height: 50px;
+    width: 120px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
