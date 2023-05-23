@@ -60,7 +60,7 @@ $param = "";
             </div>
         <div class="messenger">
             <li>
-                <a class="messeger" href="https://www.messenger.com/t/107276115682063/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792&recurring_notification=0" style="font-weight: bold; color: rgb(112, 119, 227);">
+                <a class="messeger" href="https://www.messenger.com/t/107276115682063/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792&recurring_notification=0" style="font-weight: bold; color: rgb(112, 119, 227);" target="_blank">
                     Chat mua hàng<img src="img/messenger.png" alt="" style="height: 30px;"></a>
             </li>
         </div>
@@ -210,7 +210,7 @@ $param = "";
     <!----------------------------------app--------------------------->
     <section class="app-container">
         <div class="messenger">
-            <a href="https://www.messenger.com/t/107276115682063/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792&recurring_notification=0"><img src="img/messenger.png" alt=""><br>
+            <a href="https://www.messenger.com/t/107276115682063/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792&recurring_notification=0" target="_blank"><img src="img/messenger.png" alt=""><br>
                 <p style="font-size: bold; color: rgb(86, 118, 215);">--Chat với HANDMADE để mua hàng ngay nào--</p>
             </a>
 
