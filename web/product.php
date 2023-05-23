@@ -171,7 +171,7 @@ $product = new product;
                  while($i-->0 && $resultC= $get_brand_product -> fetch_assoc()){
         ?>
             <div class="product-related-item">
-                <a href="product.php?sanpham_id=<?php echo $resultC['sanpham_id'] ?>"><img src="<?php echo $resultC['sanpham_anh'] ?>" alt=""></a>
+                <a href="product.php?loaisanpham_id=<?php echo $resultC['loaisanpham_id'] ?>& sanpham_id=<?php echo $resultC['sanpham_id'] ?>""><img src="<?php echo $resultC['sanpham_anh'] ?>" alt=""></a>
                 <h1><?php echo $resultC['sanpham_tieude'] ?></h1>
                 <p><?php echo $resultC['sanpham_gia'] ?><sup>đ</sup></p>
             </div>
