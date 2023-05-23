@@ -75,9 +75,19 @@ $brand = new brand;
         </header>
         <section id="slide">
             <div class="aspect-ratio-123">
-                <img src="img/slide1.png" alt="">
-                <img src="img/slide2.png" alt="">
-                <img src="img/slide3.png" alt="">
+                <?php
+                $show_slide = $brand -> show_slide();
+                if($show_slide){
+
+                    while($resultD = $show_slide -> fetch_assoc()){
+                ?>
+                    <li>
+                        <a href="">
+                           <img src="<?php echo $resultD['link_anh'] ?>" alt="">
+                        </a>
+                <?php
+                    }}
+                ?>
             </div>
             <div class="dot-container">
                 <div class="dot active"></div>
