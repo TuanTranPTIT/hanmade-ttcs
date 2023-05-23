@@ -11,7 +11,7 @@ $show_email = $email -> show_email();
 
         <div class="admin-content-right">
             <div class="admin-content-right-cartegory-list">
-                <h1>Danh Sách Danh Mục</h1>
+                <h1>Danh Sách Email Khách Hàng</h1>
                 <table>
                     <tr>
                         <th>STT</th>
